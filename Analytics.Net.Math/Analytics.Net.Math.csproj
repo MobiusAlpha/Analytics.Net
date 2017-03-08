@@ -48,6 +48,7 @@
   <ItemGroup>
     <Compile Include="Arthmetic.cs" />
     <Compile Include="ArthmeticOperationType.cs" />
+    <Compile Include="Calculus.cs" />
     <Compile Include="Constant.cs" />
     <Compile Include="Derivative.cs" />
     <Compile Include="Equation.cs" />
