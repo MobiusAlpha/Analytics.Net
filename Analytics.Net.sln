@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics.Net.Dimensions", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics.Net.Math", "Analytics.Net.Math\Analytics.Net.Math.csproj", "{708E7FD8-12F5-4795-9B02-45ABE62883CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics.Net.Scripting", "Analytics.Net.Scripting\Analytics.Net.Scripting.csproj", "{C98CA516-C9DD-4A9E-8532-046B881A861C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Analytics.Net.ScriptEngine", "Analytics.Net.ScriptEngine\Analytics.Net.ScriptEngine.csproj", "{8C47B7BA-46BB-4A04-AD13-E5768854652B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{708E7FD8-12F5-4795-9B02-45ABE62883CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{708E7FD8-12F5-4795-9B02-45ABE62883CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{708E7FD8-12F5-4795-9B02-45ABE62883CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C98CA516-C9DD-4A9E-8532-046B881A861C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C98CA516-C9DD-4A9E-8532-046B881A861C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C98CA516-C9DD-4A9E-8532-046B881A861C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C98CA516-C9DD-4A9E-8532-046B881A861C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C47B7BA-46BB-4A04-AD13-E5768854652B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C47B7BA-46BB-4A04-AD13-E5768854652B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C47B7BA-46BB-4A04-AD13-E5768854652B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C47B7BA-46BB-4A04-AD13-E5768854652B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

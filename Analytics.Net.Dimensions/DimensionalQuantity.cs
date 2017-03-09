@@ -48,6 +48,10 @@ namespace Analytics.Net.Dimensions
 
             return new DimensionalQuantity(quantity, a.Dimensions.DifferentiateDimensions(b.Dimensions).ToArray());
         }
-        
+
+        public static DimensionalQuantity Parse(string argPart)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
