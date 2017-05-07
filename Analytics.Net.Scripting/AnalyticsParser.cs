@@ -51,13 +51,17 @@ namespace Analytics.Net.Scripting
                             }
                             else
                             {
-                                
+                                throw new ParsingException("Header parsing resulted in an incomplete header.");
                             }
                         }
                         break;
+                    case "#RUN_MODE":
+                        {
+                            
+                        }
+                        break;
                     default:
-                        throw new ParsingException(
-                            $"Invalid token '{lexTokens[position].Value}' encountered during header parsing.");
+                        throw new ParsingException($"Invalid token '{lexTokens[position].Value}' encountered during header parsing.");
                 }
 
                 if (parseComplete)
@@ -69,16 +73,16 @@ namespace Analytics.Net.Scripting
 
             if (!parseComplete)
             {
-
+                throw new ParsingException("Invalid end of header, please verify that header information starts with #HEADER_START and ends with #HEADER_END.");
             }
 
             return header;
         }
 
 
-        private bool _checkHeader (ExecutionHeader header)
+        private bool _checkHeader(ExecutionHeader header)
         {
-
+            return true;
         }
 
         private ExpressionTree _buildTree(LexicalToken[] lexTokens)

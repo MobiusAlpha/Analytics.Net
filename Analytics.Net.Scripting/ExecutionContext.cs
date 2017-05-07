@@ -1,4 +1,6 @@
-﻿namespace Analytics.Net.Scripting
+﻿using System.Collections.Generic;
+
+namespace Analytics.Net.Scripting
 {
     public class ExecutionContext
     {
